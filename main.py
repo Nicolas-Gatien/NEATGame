@@ -7,7 +7,10 @@ pygame.init()
 # variables
 CAR_SPEED = 10
 
-Y = 'y'
+W = 'w'
+A = 'a'
+S = 's'
+D = 'd'
 
 screen = pygame.display.set_mode((512, 512))
     # images
@@ -26,7 +29,7 @@ class Car:
         self.img = PLAYER_IMG
     
     def move(self, speed, input):
-        
+        pass
         
 
 while 1:
